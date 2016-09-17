@@ -1,53 +1,131 @@
-digraph roadmap {
+﻿digraph roadmap {
     rankdir=LR;
+    charset="UTF-8";
+    node [shape=rectangle, fontname="SimSun"]; /* size="20,20" */
     /*dpi=400;*/
-    rfc3535 [shape=rectangle, href="https://tools.ietf.org/html/rfc3535", fontsize=11, color="#61BD4D", label="rfc3535", penwidth=2];
-    rfc4741 [shape=rectangle, href="https://tools.ietf.org/html/rfc4741", fontsize=11, color="#cccccc", label="rfc4741", penwidth=2];
-    rfc4742 [shape=rectangle, href="https://tools.ietf.org/html/rfc4742", fontsize=11, color="#cccccc", label="rfc4742", penwidth=2];
-    rfc4743 [shape=rectangle, href="https://tools.ietf.org/html/rfc4743", fontsize=11, color="#cccccc", label="rfc4743", penwidth=2];
-    rfc4744 [shape=rectangle, href="https://tools.ietf.org/html/rfc4744", fontsize=11, color="#cccccc", label="rfc4744", penwidth=2];
-    rfc5277 [shape=rectangle, href="https://tools.ietf.org/html/rfc5277", fontsize=11, color="#cccccc", label="rfc5277", penwidth=2];
-    rfc5539 [shape=rectangle, href="https://tools.ietf.org/html/rfc5539", fontsize=11, color="#cccccc", label="rfc5539", penwidth=2];
-    rfc5717 [shape=rectangle, href="https://tools.ietf.org/html/rfc5717", fontsize=11, color="#cccccc", label="rfc5717", penwidth=2];    
-    rfc6020 [shape=rectangle, href="https://tools.ietf.org/html/rfc6020", fontsize=11, color="#cccccc", label="rfc6020", penwidth=2];
-    rfc6021 [shape=rectangle, href="https://tools.ietf.org/html/rfc6021", fontsize=11, color="#cccccc", label="rfc6021", penwidth=2];
-    rfc6022 [shape=rectangle, href="https://tools.ietf.org/html/rfc6022", fontsize=11, color="#cccccc", label="rfc6022", penwidth=2];
-    rfc6087 [shape=rectangle, href="https://tools.ietf.org/html/rfc6087", fontsize=11, color="#cccccc", label="rfc6087", penwidth=2];
-    rfc6110 [shape=rectangle, href="https://tools.ietf.org/html/rfc6110", fontsize=11, color="#cccccc", label="rfc6110", penwidth=2];    
-    rfc6241 [shape=rectangle, href="https://tools.ietf.org/html/rfc6241", fontsize=11, color="#cccccc", label="rfc6241", penwidth=2];
-    rfc6242 [shape=rectangle, href="https://tools.ietf.org/html/rfc6242", fontsize=11, color="#cccccc", label="rfc6242", penwidth=2];
-    rfc6243 [shape=rectangle, href="https://tools.ietf.org/html/rfc6243", fontsize=11, color="#cccccc", label="rfc6243", penwidth=2];
-    rfc6244 [shape=rectangle, href="https://tools.ietf.org/html/rfc6244", fontsize=11, color="#cccccc", label="rfc6244", penwidth=2];
-    rfc6470 [shape=rectangle, href="https://tools.ietf.org/html/rfc6470", fontsize=11, color="#cccccc", label="rfc6470", penwidth=2];
-    rfc6643 [shape=rectangle, href="https://tools.ietf.org/html/rfc6643", fontsize=11, color="#cccccc", label="rfc6643", penwidth=2];
-    rfc6536 [shape=rectangle, href="https://tools.ietf.org/html/rfc6536", fontsize=11, color="#cccccc", label="rfc6536", penwidth=2];
-    rfc6991 [shape=rectangle, href="https://tools.ietf.org/html/rfc6991", fontsize=11, color="#cccccc", label="rfc6991", penwidth=2];
-    rfc7223 [shape=rectangle, href="https://tools.ietf.org/html/rfc7223", fontsize=11, color="#cccccc", label="rfc7223", penwidth=2];
-    rfc7224 [shape=rectangle, href="https://tools.ietf.org/html/rfc7224", fontsize=11, color="#cccccc", label="rfc7224", penwidth=2];
-    rfc7277 [shape=rectangle, href="https://tools.ietf.org/html/rfc7277", fontsize=11, color="#cccccc", label="rfc7277", penwidth=2];
-    rfc7317 [shape=rectangle, href="https://tools.ietf.org/html/rfc7317", fontsize=11, color="#cccccc", label="rfc7317", penwidth=2];
-    rfc7407 [shape=rectangle, href="https://tools.ietf.org/html/rfc7407", fontsize=11, color="#cccccc", label="rfc7407", penwidth=2];
-    rfc7589 [shape=rectangle, href="https://tools.ietf.org/html/rfc7589", fontsize=11, color="#cccccc", label="rfc7589", penwidth=2];
-    rfc7895 [shape=rectangle, href="https://tools.ietf.org/html/rfc7895", fontsize=11, color="#cccccc", label="rfc7895", penwidth=2];
-    rfc7950 [shape=rectangle, href="https://tools.ietf.org/html/rfc7950", fontsize=11, color="#cccccc", label="rfc7950", penwidth=2];
-    rfc7951 [shape=rectangle, href="https://tools.ietf.org/html/rfc7951", fontsize=11, color="#cccccc", label="rfc7951", penwidth=2];
-    rfc7952 [shape=rectangle, href="https://tools.ietf.org/html/rfc7952", fontsize=11, color="#cccccc", label="rfc7952", penwidth=2];
+    rfc3535 [shape=rectangle, href="https://tools.ietf.org/html/rfc3535", fontsize=11, color="#61BD4D", label="网络管理技术的需求", penwidth=2];
+    rfc4741 [shape=rectangle, href="https://tools.ietf.org/html/rfc4741", fontsize=11, color="#CCCCCC", label="NETCONF协议1.0", penwidth=2];
+    rfc4742 [shape=rectangle, href="https://tools.ietf.org/html/rfc4742", fontsize=11, color="#61BD4D", label="rfc4742", penwidth=2];
+    rfc4743 [shape=rectangle, href="https://tools.ietf.org/html/rfc4743", fontsize=11, color="#61BD4D", label="rfc4743", penwidth=2];
+    rfc4744 [shape=rectangle, href="https://tools.ietf.org/html/rfc4744", fontsize=11, color="#61BD4D", label="rfc4744", penwidth=2];
+    rfc5277 [shape=rectangle, href="https://tools.ietf.org/html/rfc5277", fontsize=11, color="#61BD4D", label="rfc5277", penwidth=2];
+    rfc5539 [shape=rectangle, href="https://tools.ietf.org/html/rfc5539", fontsize=11, color="#61BD4D", label="rfc5539", penwidth=2];
+    rfc5717 [shape=rectangle, href="https://tools.ietf.org/html/rfc5717", fontsize=11, color="#61BD4D", label="rfc5717", penwidth=2];    
+    rfc6020 [shape=rectangle, href="https://tools.ietf.org/html/rfc6020", fontsize=11, color="#61BD4D", label="rfc6020", penwidth=2];   /* YANG - A Data Modeling Language for the Network Configuration Protocol (NETCONF) */
+    rfc6021 [shape=rectangle, href="https://tools.ietf.org/html/rfc6021", fontsize=11, color="#61BD4D", label="rfc6021", penwidth=2];
+    rfc6022 [shape=rectangle, href="https://tools.ietf.org/html/rfc6022", fontsize=11, color="#61BD4D", label="rfc6022", penwidth=2];
+    rfc6087 [shape=rectangle, href="https://tools.ietf.org/html/rfc6087", fontsize=11, color="#61BD4D", label="rfc6087", penwidth=2];
+    rfc6110 [shape=rectangle, href="https://tools.ietf.org/html/rfc6110", fontsize=11, color="#61BD4D", label="rfc6110", penwidth=2];    
+    rfc6241 [shape=rectangle, href="https://tools.ietf.org/html/rfc6241", fontsize=11, color="#61BD4D", label="NETCONF协议1.1", penwidth=2];
+    rfc6242 [shape=rectangle, href="https://tools.ietf.org/html/rfc6242", fontsize=11, color="#61BD4D", label="rfc6242", penwidth=2];
+    rfc6243 [shape=rectangle, href="https://tools.ietf.org/html/rfc6243", fontsize=11, color="#61BD4D", label="rfc6243", penwidth=2];
+    rfc6244 [shape=rectangle, href="https://tools.ietf.org/html/rfc6244", fontsize=11, color="#61BD4D", label="rfc6244", penwidth=2];
+    rfc6470 [shape=rectangle, href="https://tools.ietf.org/html/rfc6470", fontsize=11, color="#61BD4D", label="rfc6470", penwidth=2];
+    rfc6643 [shape=rectangle, href="https://tools.ietf.org/html/rfc6643", fontsize=11, color="#61BD4D", label="rfc6643", penwidth=2];
+    rfc6536 [shape=rectangle, href="https://tools.ietf.org/html/rfc6536", fontsize=11, color="#61BD4D", label="权限控制：NACM", penwidth=2];
+    rfc6991 [shape=rectangle, href="https://tools.ietf.org/html/rfc6991", fontsize=11, color="#61BD4D", label="rfc6991", penwidth=2];   /* Common YANG Data Types */
+    rfc7223 [shape=rectangle, href="https://tools.ietf.org/html/rfc7223", fontsize=11, color="#61BD4D", label="rfc7223", penwidth=2];   /* A YANG Data Model for Interface Management */
+    rfc7224 [shape=rectangle, href="https://tools.ietf.org/html/rfc7224", fontsize=11, color="#61BD4D", label="rfc7224", penwidth=2];   /* IANA Interface Type YANG Module */
+    rfc7277 [shape=rectangle, href="https://tools.ietf.org/html/rfc7277", fontsize=11, color="#61BD4D", label="rfc7277", penwidth=2];   /* A YANG Data Model for IP Management */
+    rfc7317 [shape=rectangle, href="https://tools.ietf.org/html/rfc7317", fontsize=11, color="#61BD4D", label="rfc7317", penwidth=2];   /* A YANG Data Model for System Management */
+    rfc7407 [shape=rectangle, href="https://tools.ietf.org/html/rfc7407", fontsize=11, color="#61BD4D", label="rfc7407", penwidth=2];   /* A YANG Data Model for SNMP Configuration */
+    rfc7589 [shape=rectangle, href="https://tools.ietf.org/html/rfc7589", fontsize=11, color="#61BD4D", label="rfc7589", penwidth=2];
+    rfc7895 [shape=rectangle, href="https://tools.ietf.org/html/rfc7895", fontsize=11, color="#61BD4D", label="rfc7895", penwidth=2];   /* YANG Module Library */
+    rfc7950 [shape=rectangle, href="https://tools.ietf.org/html/rfc7950", fontsize=11, color="#61BD4D", label="rfc7950", penwidth=2];   /* The YANG 1.1 Data Modeling Language */
+    rfc7951 [shape=rectangle, href="https://tools.ietf.org/html/rfc7951", fontsize=11, color="#61BD4D", label="rfc7951", penwidth=2];   /* JSON Encoding of Data Modeled with YANG */
+    rfc7952 [shape=rectangle, href="https://tools.ietf.org/html/rfc7952", fontsize=11, color="#61BD4D", label="rfc7952", penwidth=2];   /* Defining and Using Metadata with YANG */
+    draft_ietf_restconf [shape=rectangle, href="https://tools.ietf.org/html/rfc7952", fontsize=11, color="#61BD4D", label="RESTCONF协议", penwidth=2];
 
-    rfc3535 -> rfc4741  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc3535 -> rfc6020  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4741 -> rfc4742  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4741 -> rfc4743  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4741 -> rfc4744  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4741 -> rfc6241  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4741 -> rfc5277  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc4742 -> rfc6242  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc6021  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc6022  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7950  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7223  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7224  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7277  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7317  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6020 -> rfc7407  [color="#CCCCCC", fontsize=11, penwidth=2];
-    rfc6021 -> rfc6991  [color="#CCCCCC", fontsize=11, penwidth=2];
+    rfc3535 -> rfc4741  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc3535 -> rfc6020  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc4742  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc4743  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc4744  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc6241  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc5277  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc5539  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc5717  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc6243  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc6470  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc6536  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc7895  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> draft_ietf_restconf  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4742 -> rfc6242  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc5539 -> rfc7589  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6021  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6022  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6110  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6643  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7950  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7223  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7224  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7277  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7317  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7407  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7951  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc7952  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6021 -> rfc6991  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6244  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc4741 -> rfc6244  [color="#61BD4D", fontsize=11, penwidth=2];
+    rfc6020 -> rfc6087  [color="#61BD4D", fontsize=11, penwidth=2];
+    
+    subgraph cluster_nc_ext {
+        label="对能力协商的扩展";
+        rfc5717;
+        rfc6243;
+    }
+    
+    subgraph cluster_nc_transport {
+        label="NETCONF传输层协议";
+        rfc4742;
+        rfc4743;
+        rfc4744;
+        rfc5539;
+        rfc6242;
+        rfc7589;
+    }
+    
+    subgraph cluster_nc_notification {
+        label="Notification上报机制"
+        rfc5277;
+        /*rfc5277bis;*/
+        /*draft_yang_push;*/
+        /*draft_event_notification;*/
+    }
+    
+    /* The following RFCs define the YANG language and some basic extensions */
+    subgraph cluster_yang_spec {
+        rfc6020;
+        rfc7950;
+        rfc7951;
+        rfc7952;
+    }
+    
+    /* The YANG modules */
+    /* 机制的YANG模型 */
+    subgraph cluster_nc_yang {
+        rfc6022;
+        rfc6470;
+        rfc7895;
+        /*draft;*/
+    }
+    
+    /* 业务的YANG模型 */
+    subgraph cluster_app_yang {
+        rfc7223;
+        rfc7224;
+        rfc7277;
+        rfc7317;
+        rfc7407;
+        /*draft_acl;*/
+        /*draft_routing;*/
+        /*draft_syslog;*/
+        /*draft_entity;*/
+        /*draft_if_ext;*/
+    }
+    
+    subgraph cluster_yang_convertion {
+        rfc6110;
+        rfc6643;
+    }
 }
