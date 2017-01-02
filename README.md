@@ -1,6 +1,6 @@
-# netconf-roadmap
+# NETCONF and YANG RFCs Roadmap
 
-IETF NETCONF RFC roadmap
+IETF NETCONF and YANG RFC roadmap
 
 ## netconf
 
